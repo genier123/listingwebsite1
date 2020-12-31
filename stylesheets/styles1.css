@@ -3,6 +3,7 @@
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   /* Style the header links */
@@ -81,8 +82,46 @@
     font-size: 18px; /* Increase the font-size */
     color: black; /* Add a black text color */
     display: block; /* Make it into a block element to fill the whole list */
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   #myUL li a:hover:not(.header) {
     background-color: #eee; /* Add a hover effect to all links, except for headers */
+   /* transition: transform 1s;
+    transform: scale(1.1); */
   }
+
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+   /* transition: transform 1s;
+    transform: scale(1.1); */
+  }
+
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  padding: 0;
+  margin: 0;
+  width: 98%;
+}
+
+.containerTab {
+  padding: 5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: grey;
+  font-size: 25px;
+  cursor: pointer;
+} 
